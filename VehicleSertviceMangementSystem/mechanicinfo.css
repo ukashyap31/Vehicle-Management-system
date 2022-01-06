@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(mechworkjpg.jpg);
+    background-size: cover;
+    background-position: contain;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.form-box{
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.input-field
+{
+    /* margin-left: 50px; */
+    margin-bottom: 20px;
+    margin-top: 50px;
+    height: 35px;
+    width: 300px;
+}
+.submit-btn{
+    margin-top: 50px;
+    width: 20%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: linear-gradient(to right,#e7ff10,#06ff30);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 190px;
+}
